@@ -87,6 +87,10 @@ body {
   color: var(--card-color);
 }
 
+.card__button:hover {
+  opacity: 90%;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -99,6 +103,12 @@ body {
 
 .image--desktop {
   display: none;
+}
+
+.button--cart {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
 }
 
 @media screen and (min-width: 768px) {
